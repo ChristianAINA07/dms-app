@@ -1,0 +1,60 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+
+
+# Fichiers de compilation Java et dossiers lourds
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Configuration propre a l'IDE (VS Code / Eclipse / IntelliJ)
+.idea/
+.settings/
+.classpath
+.project
+.factorypath
+bin/
+.vscode/
+
+# Fichiers systeme et logs locaux
+*.log
+.DS_Store
+Thumbs.db
+
+# DOSSIER TRÈS IMPORTANT : Le stockage physique local de l'entreprise
+# On ne doit JAMAIS uploader les fichiers de test des utilisateurs sur GitHub
+/dms_enterprise_storage/
