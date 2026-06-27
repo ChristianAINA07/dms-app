@@ -44,6 +44,9 @@ Interface restreinte permettant l'indexation opérationnelle des fichiers et l'a
 ### Espace de Consultation de l'Employé (Recherche et Consultation)
 Interface épurée dédiée exclusivement à la recherche documentaire et au téléchargement sécurisé.
 ![Console Employé](assets/dashboard-employe.png)
+### Structure de la Base de Données Relationale (MySQL)
+Vue globale des tables relationnelles gérées par Hibernate et Spring Data JPA au sein de l'environnement phpMyAdmin, illustrant la persistance des métadonnées et la traçabilité des versions.
+![Persistance des Données MySQL](assets/database-mysql.png)
 
 ---
 
